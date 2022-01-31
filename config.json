@@ -1,0 +1,93 @@
+{
+    "proxies": {
+        "enabled": false,
+        "proxies_list": [""]
+    },
+    "authentication": {
+        "cookie": "",
+        "userid": 3192675782,
+        "key": ""
+    },
+    "ratelimit_trade_retry_interval": 30,
+    "error_retry_interval": 5,
+    "resend_cooldown_interval": 3600,
+    "sleep_between_sending": 0,
+    "trading": {
+        "experimental_algorithm": {
+            "enabled": false,
+            "mixed_minimum_request_multiplier": 1.025,
+            "mixed_maximum_request_multiplier": 1.045,
+            "send_mixed": true,
+            "upgrade_minimum_request_multiplier": 1.035,
+            "upgrade_maximum_request_multiplier": 1.055,
+            "send_upgrade": true,
+            "downgrade_minimum_request_multiplier": 1.045,
+            "downgrade_maximum_request_multiplier": 1.075,
+            "send_downgrade": true
+        },
+        "minimum_request_multiplier": 1.035,
+        "maximum_request_multiplier": 1.065,
+        "rap_boost": {
+            "enabled": false,
+            "boost": 1.001
+        },
+        "dont_hoard_over": 1,
+        "undervalue_request_raprequirement": true,
+        "undervalue_offer_raprequirement": false,
+        "only_trade_for_value": false,
+        "only_trade_for_rap": false,
+        "minimum_volume": 0.5,
+        "dont_send_items_over": 1000000,
+        "dont_send_for_items_under": 1000,
+        "prefer_highest_value_offer": false,
+        "trade_for_rares": false,
+        "keep_my_rares": true,
+        "do_not_trade": ["241671883"],
+        "static_offer_values": [{"item": 213412431, "overwritten_value": 0}],
+        "do_not_trade_for": ["7592037079", "187483689", "583722932", "2409285794", "1213472762", "20573078", "189963585", "24826811", "24826737", "6815676017", "7212273948", "6803412842", "7212291640", "6803395856", "8274214179", "6807134749", "6803404717", "8198290657", "6803400584", "6807139994", "8198278666", "6803423284", "7592026396", "6807135859", "8198301926", "76692866", "111776247", "6807138720", "6803403781", "6803401743", "6803410579", "6803405665", "6803398976", "8194165059", "6803407328", "24826811", "19027209", "1213472762", "583721561", "583722710"],
+        "raptovalue": {"5000":4000, "6000":4700, "7000":5400, "8000":6200, "9000":7000, "10000":7800, "11000":8600, "12000":9400, "13000":10000, "14000":10800, "15000":11600, "16000":12400, "18000":14000, "20000":15500, "22000":17000, "24000":18500, "26000":20000, "28000":21500, "30000":23000, "32000":25000, "35000":27000, "38000":29000, "40000":31000, "42000":33000, "45000":35000, "48000":37000, "50000":40000, "55000":43000, "60000":47000, "65000":50000, "70000":54000, "75000":58000, "80000":62000, "85000":66000, "90000":70000, "95000":74000, "100000":78000},
+        "update_inventory_interval": 120,
+        "plug_rbxflip_users": true,
+        "overvalue_offer_smalls": {
+            "enabled": true,
+            "highest_amount": 2000,
+            "add_amount": 150
+        },
+        "undervalue_request_smalls": {
+            "enabled": true,
+            "highest_amount": 2000,
+            "subtract_amount": 75
+        },
+        "projecteds": {
+            "trade_for": true,
+            "undervalue_my_projecteds": false,
+            "owned_projected_value": 0.55,
+            "request_projected_value": 0.35,
+            "dont_send_for_projecteds_over": 50000
+        },
+        "users_dont_send_to": [""],
+        "get_rid_of": {
+            "items": [""],
+            "multiplier": 0.45
+        },
+        "max_combos": 1,
+        "max_items_generate_combos_for": 20,
+        "clear_queue_if_inventory_changes": false,
+        "purge_queue_after": 1000,
+        "purge_cooldown_after": 2500,
+        "outbound_checker":
+        {
+            "decline_losses": false,
+            "minimum_value_gain": 1,
+            "check_page_interval": 3,
+            "check_interval": 5
+        },
+        "inbound_checker":
+        {
+            "decline_losses": false,
+            "minimum_value_gain": 1,
+            "check_page_interval": 3,
+            "check_interval": 5
+        }
+    }
+}
